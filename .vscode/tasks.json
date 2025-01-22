@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npm install firebase",
+			"command": "npm",
+			"args": [
+				"install",
+				"firebase"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/alazani-final"
+			},
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
